@@ -28,6 +28,8 @@ project.xcworkspace
 .gradle
 local.properties
 *.iml
+.project
+org.eclipse.buildship.core.prefs
 
 # node.js
 #
