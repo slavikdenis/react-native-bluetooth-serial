@@ -1,11 +1,12 @@
 {
   "name": "@voxylu/react-native-bluetooth-serial",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "'Bluetooth serial for react native'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/voxylu/react-native-bluetooth-serial.git"
@@ -24,6 +25,8 @@
     "buffer": "^4.6.0"
   },
   "peerDependencies": {
+    "@types/react-native": ">=0.55.11",
+    "@types/react": ">=16.3.13",
     "react-native": ">=0.40"
   }
 }
