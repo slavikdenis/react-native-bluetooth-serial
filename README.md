@@ -11,7 +11,17 @@ Officialy this library supports React Native >= 0.25, it may run on older versio
 
 1. Install package via npm: `npm i -S @voxylu/react-native-bluetooth-serial`
 2. Link libraries with: `rnpm link` or `react-native link` for React Native >= 0.27
-3. For android you also need to put following code to `AndroidManifest.xml`
+3. In `build.gradle` of `app` module make sure that min SDK version is at least 19:
+
+```groovy
+android {
+    ...
+    defaultConfig {
+        minSdkVersion 19
+        ...
+```
+
+4. For android you also need to put following code to `AndroidManifest.xml`
 
 ```
 <uses-permission android:name="android.permission.BLUETOOTH" />
