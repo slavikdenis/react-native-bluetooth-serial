@@ -1,6 +1,6 @@
 {
-  "name": "@voxylu/react-native-bluetooth-serial",
-  "version": "1.1.1",
+  "name": "@slavikdenis/react-native-bluetooth-serial",
+  "version": "1.1.2",
   "description": "'Bluetooth serial for react native'",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voxylu/react-native-bluetooth-serial.git"
+    "url": "git+https://github.com/slavikdenis/react-native-bluetooth-serial.git"
   },
   "keywords": [
     "bluetooth",
@@ -18,9 +18,9 @@
   "author": "Jakub Martyčák <martycakjakub@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/voxylu/react-native-bluetooth-serial/issues"
+    "url": "https://github.com/slavikdenis/react-native-bluetooth-serial/issues"
   },
-  "homepage": "https://github.com/voxylu/react-native-bluetooth-serial#readme",
+  "homepage": "https://github.com/slavikdenis/react-native-bluetooth-serial#readme",
   "dependencies": {
     "buffer": "^4.6.0"
   },
