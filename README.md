@@ -143,3 +143,4 @@ You can use `BluetoothSerial.removeListener(eventName, callback)` to stop listen
 ## TODO
 
 - Make services configurable on ios
+- updated API description based on `android/src/main/java/com/rusel/RCTBluetoothSerial/RCTBluetoothSerialModule.java` and `ios/RCTBluetoothSerial/RCTBluetoothSerial.m`
