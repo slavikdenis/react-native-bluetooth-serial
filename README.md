@@ -9,8 +9,8 @@ Officialy this library supports React Native >= 0.25, it may run on older versio
 
 ## Installation
 
-1. Install package via npm: `npm i -S @slavikdenis/react-native-bluetooth-serial`
-2. Link libraries with: `rnpm link` or `react-native link` for React Native >= 0.27
+1. Install package via npm: `yarn add @slavikdenis/react-native-bluetooth-serial`
+2. Link libraries with: `npx react-native link` for React Native >= 0.27
 3. In `build.gradle` of `app` module make sure that min SDK version is at least 19:
 
 ```groovy
@@ -32,7 +32,7 @@ android {
 
 #### iOS
 
-1. `npm i -S @slavikdenis/react-native-bluetooth-serial`
+1. `yarn add @slavikdenis/react-native-bluetooth-serial`
 2. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 3. Go to `node_modules` ➜ `react-native-bluetooth-serial` and add `RCTBluetoothSerial.xcodeproj`
 4. In XCode, in the project navigator, select your project. Add `libRCTBluetoothSerial.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
@@ -41,7 +41,7 @@ android {
 
 #### Android
 
-1. `npm i -S @slavikdenis/react-native-bluetooth-serial`
+1. `yarn add @slavikdenis/react-native-bluetooth-serial`
 2. Open up `android/app/src/main/java/[...]/MainActivity.java` or `MainApplication.java` for React Native >= 0.29
 
 - Add `import com.rusel.RCTBluetoothSerial.*;` to the imports at the top of the file
@@ -64,7 +64,7 @@ to run the example on actual device.
 
 1. `git clone https://github.com/slavikdenis/react-native-bluetooth-serial.git`
 2. `cd react-native-bluetooth-serial/BluetoothSerialExample`
-3. `npm i`
+3. `yarn install`
 4. `react-native run-ios/run-android`
 
 # Reading and writing
@@ -142,5 +142,4 @@ You can use `BluetoothSerial.removeListener(eventName, callback)` to stop listen
 
 ## TODO
 
-- Make services configurable on ios
 - updated API description based on `android/src/main/java/com/rusel/RCTBluetoothSerial/RCTBluetoothSerialModule.java` and `ios/RCTBluetoothSerial/RCTBluetoothSerial.m`
